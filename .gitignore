@@ -1,0 +1,38 @@
+# Python Virtual Environment
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Downloaded Datasets
+backend/data/*.csv
+backend/data/*.parquet
+backend/data/*.jsonl
+
+# Trained Model Artifacts
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+
+# Keep Empty Directories Available in Git
+!backend/data/.gitkeep
+!backend/artifacts/.gitkeep
+
+# Flask Configuration
+.env
+*.env
+
+# Frontend Dependencies and Build Output
+frontend/node_modules/
+frontend/dist/
+
+# Editor and Operating-System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test Caches
+.pytest_cache/
+.coverage
+htmlcov/
